@@ -1,0 +1,160 @@
+/* Minimal green & white theme */
+:root {
+    --green: #2ecc71;
+    --dark-green: #27ae60;
+    --white: #fff;
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    line-height: 1.6;
+    color: #333;
+    background: var(--white);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: var(--white);
+    border-bottom: 1px solid #eee;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.logo {
+    height: 80px; /* even larger logo */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-size: 1.1rem; /* bigger text */
+}
+
+/* decorative accent on section titles */
+section h1 {
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+section h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 4px;
+    height: 60%;
+    background: var(--green);
+    transform: translateY(-50%);
+}
+
+/* borders to separate content */
+section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+section p,
+section ul,
+section ol {
+    padding: 0.5rem 1rem;
+    border-left: 4px solid var(--green);
+    margin-bottom: 1rem;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.sketch-img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--green);
+    font-weight: bold;
+    padding: 1rem 0;
+    display: block;
+}
+
+nav a:hover {
+    color: var(--dark-green);
+}
+
+nav a.active {
+    color: var(--dark-green);
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 70px; /* space for fixed header */
+}
+
+section {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: var(--green);
+}
+
+h2 {
+    margin-top: 1.5rem;
+    color: var(--dark-green);
+}
+
+ul {
+    margin: 1rem 0;
+    padding-left: 1.2rem;
+}
+
+ol {
+    margin: 1rem 0 1rem 1.2rem;
+}
+
+.checks li {
+    margin: .5rem 0;
+}
+
+p {
+    margin: .5rem 0;
+}
+
+/* smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
