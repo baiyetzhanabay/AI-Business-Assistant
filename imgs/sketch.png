@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="500" fill="#f5f5f5" stroke="#2ecc71" stroke-width="2"/>
+  <text x="200" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#2ecc71">UI Prototype</text>
+  <rect x="10" y="50" width="380" height="60" fill="#2ecc71" stroke="#27ae60" stroke-width="2" rx="5"/>
+  <text x="200" y="85" font-size="14" text-anchor="middle" fill="white" font-weight="bold">Welcome Message</text>
+  <line x1="10" y1="130" x2="390" y2="130" stroke="#ddd" stroke-width="1"/>
+  <text x="20" y="155" font-size="12" font-weight="bold" fill="#333">Main Menu:</text>
+  <rect x="20" y="170" width="160" height="40" fill="#fff" stroke="#2ecc71" stroke-width="1" rx="3"/>
+  <text x="100" y="195" font-size="11" text-anchor="middle" fill="#2ecc71">📅 Schedule</text>
+  <rect x="220" y="170" width="160" height="40" fill="#fff" stroke="#2ecc71" stroke-width="1" rx="3"/>
+  <text x="300" y="195" font-size="11" text-anchor="middle" fill="#2ecc71">📝 Entries</text>
+  <rect x="20" y="220" width="160" height="40" fill="#fff" stroke="#2ecc71" stroke-width="1" rx="3"/>
+  <text x="100" y="245" font-size="11" text-anchor="middle" fill="#2ecc71">📦 Inventory</text>
+  <rect x="220" y="220" width="160" height="40" fill="#fff" stroke="#2ecc71" stroke-width="1" rx="3"/>
+  <text x="300" y="245" font-size="11" text-anchor="middle" fill="#2ecc71">📊 Reports</text>
+  <rect x="20" y="270" width="160" height="40" fill="#fff" stroke="#2ecc71" stroke-width="1" rx="3"/>
+  <text x="100" y="295" font-size="11" text-anchor="middle" fill="#2ecc71">⚙ Settings</text>
+  <line x1="10" y1="330" x2="390" y2="330" stroke="#ddd" stroke-width="1"/>
+  <text x="20" y="355" font-size="12" font-weight="bold" fill="#333">Example Interaction:</text>
+  <rect x="20" y="370" width="360" height="80" fill="#e8f8f5" stroke="#2ecc71" stroke-width="1" rx="3"/>
+  <text x="30" y="390" font-size="11" fill="#333">User: "Add appointment tomorrow</text>
+  <text x="30" y="405" font-size="11" fill="#333">at 3 PM for client Ali"</text>
+  <text x="30" y="425" font-size="11" fill="#2ecc71" font-weight="bold">Bot: ✅ Appointment added</text>
+  <text x="30" y="440" font-size="11" fill="#2ecc71" font-weight="bold">for 3 PM, March 2.</text>
+</svg>
